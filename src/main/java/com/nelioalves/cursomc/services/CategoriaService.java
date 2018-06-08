@@ -13,7 +13,9 @@ public class CategoriaService {
 	private CategoriaRepository repo;
 	
 	public Categoria buscar(Integer id) {
+		
 		Categoria obj = repo.findOne(id);
+		
 		return obj;
 		
 	}
