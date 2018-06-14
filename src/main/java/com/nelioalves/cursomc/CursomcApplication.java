@@ -43,8 +43,6 @@ public class CursomcApplication implements CommandLineRunner {
 	private EnderecoRepository enderecoRepository;
 	
 	
-
-
 	public static void main(String[] args) {
 		SpringApplication.run(CursomcApplication.class, args);
 	}
